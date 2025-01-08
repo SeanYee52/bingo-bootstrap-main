@@ -924,6 +924,10 @@ a:focus, a:hover {
   outline: none;
 }
 
+.contact-details{
+  text-align: center;
+}
+
 .contact-details .contact-short-info {
   margin-top: 15px;
 }
