@@ -9,7 +9,7 @@
 @import url("https://fonts.googleapis.com/css?family=Catamaran:400,500,600,700,700|Source+Sans+Pro:400,600");
 body {
   line-height: 1.4;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: Book Antiqua,Palatino,Palatino Linotype,Palatino LT STD,Georgia,serif; 
   -webkit-font-smoothing: antialiased;
 }
 
@@ -401,8 +401,13 @@ a:focus, a:hover {
 .navigation {
   transition: 0.3s all;
 }
+.navigation .logo-white{
+  display: block;
+  height: 60px;
+}
 .navigation .logo-default {
   display: none;
+  height: 60px;
 }
 .navigation .dropdown-toggle::before, .navigation .dropdown-toggle::after {
   display: none;
@@ -414,11 +419,12 @@ a:focus, a:hover {
 }
 .navigation .navbar-light .navbar-nav .nav-item .nav-link {
   color: #fff;
-  font-size: 14px;
+  font-size: 20px;
   line-height: 26px;
   padding: 20px 15px;
   text-transform: uppercase;
   letter-spacing: 1px;
+  font-weight: 1000;
   transition: 0.2s ease-in-out 0s;
 }
 .navigation .navbar-light .navbar-nav .nav-item .nav-link:hover, .navigation .navbar-light .navbar-nav .nav-item .nav-link:active, .navigation .navbar-light .navbar-nav .nav-item .nav-link:focus {
@@ -516,9 +522,11 @@ a:focus, a:hover {
   }
   .navigation .logo-white {
     display: none;
+    height: 60px;
   }
   .navigation .logo-default {
     display: block;
+    height: 60px;
   }
   .navigation .navbar-light .navbar-toggler {
     color: rgba(0, 0, 0, 0.5);
@@ -534,9 +542,11 @@ a:focus, a:hover {
 }
 .sticky-header .logo-white {
   display: none;
+  height: 60px;
 }
 .sticky-header .logo-default {
   display: block;
+  height: 60px;
 }
 
 .navbar-brand {
