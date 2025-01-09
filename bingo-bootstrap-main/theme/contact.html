@@ -143,19 +143,22 @@ End Fixed Navigation
  				<ul class="contact-short-info mt-4">
  					<li class="mb-3">
  						<i class="tf-ion-ios-home"></i>
- 						<span>Khaja Road, Bayzid, Chittagong, Bangladesh</span>
+ 						<span>Lot 213, 2nd Floor Wisma New Asia,
+              Jalan Raja Chulan,
+              50200 Kuala Lumpur,
+              Malaysia.</span>
  					</li>
  					<li class="mb-3">
  						<i class="tf-ion-android-phone-portrait"></i>
- 						<span>Phone: +880-31-000-000</span>
+ 						<span>Phone: +603-2026 2885</span>
  					</li>
  					<li class="mb-3">
  						<i class="tf-ion-android-globe"></i>
- 						<span>Fax: +880-31-000-000</span>
+ 						<span>Fax: +603-2026 3885</span>
  					</li>
  					<li>
  						<i class="tf-ion-android-mail"></i>
- 						<span>Email: hello@meghna.com</span>
+ 						<span>Email: yongsee@gmail.com</span>
  					</li>
  				</ul>
  			</div>
@@ -195,19 +198,27 @@ End Fixed Navigation
 =            Google Map            =
 =================================-->
 <div class="google-map">
-	<div id="map_canvas" class="map_canvas" data-latitude="40.712776" data-longitude="-74.005974" data-marker="images/marker.png" data-marker-name="Bingo"></div>
+	<!-- <div id="map_canvas" class="map_canvas"></div> -->
+  <iframe
+    width= 100%
+    height="500"
+    style="border:0"
+    loading="lazy"
+    allowfullscreen
+    referrerpolicy="no-referrer-when-downgrade"
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248.9867700054671!2d101.7071817637521!3d3.1504634684083985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc378c1b516d97%3A0xc40880e2e0d3fc55!2sWisma%20New%20Asia!5e0!3m2!1sen!2smy!4v1736409574002!5m2!1sen!2smy">
+  </iframe>
 </div>
  <!--====  End of Google Map  ====-->
 
 <footer id="footer" class="bg-one">
-  <div class="top-footer">
+  <!-- <div class="top-footer">
     <div class="container">
       <div class="row justify-content-around">
         <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
           <h3>about</h3>
           <p>Integer posuere erat a ante venenati dapibus posuere velit aliquet. Fusce dapibus, tellus cursus commodo, tortor mauris sed posuere.</p>
         </div>
-        <!-- End of .col-sm-3 -->
 
         <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
           <ul>
@@ -220,7 +231,6 @@ End Fixed Navigation
             <li><a href="service.html">Web Development</a></li>
           </ul>
         </div>
-        <!-- End of .col-sm-3 -->
 
         <div class="col-lg-2 col-md-6 mb-5 mb-md-0">
           <ul>
@@ -233,7 +243,6 @@ End Fixed Navigation
             <li><a href="404.html">404</a></li>
           </ul>
         </div>
-        <!-- End of .col-sm-3 -->
 
         <div class="col-lg-3 col-md-6">
           <ul>
@@ -246,16 +255,16 @@ End Fixed Navigation
             <li><a href="https://www.github.com/themefisher/">Github</a></li>
           </ul>
         </div>
-        <!-- End of .col-sm-3 -->
 
       </div>
-    </div> <!-- end container -->
-  </div>
+    </div> 
+  </div> -->
   <div class="footer-bottom">
-    <h5>&copy; Copyright 2020. All rights reserved.</h5>
-    <h6>Design and Developed by <a href="https://themefisher.com/">Themefisher</a></h6>
+    <h5>&copy; Copyright 2025. All rights reserved.</h5>
+    <h6>Wholly owned by Yong See & Partners</h6>
   </div>
-</footer> <!-- end footer -->
+</footer> 
+<!-- end footer -->
 
 
 <!-- end Footer Area
@@ -280,8 +289,30 @@ End Fixed Navigation
 <!-- Smooth Scroll js -->
 <script src="plugins/smooth-scroll/smooth-scroll.min.js"></script>
 <!-- Google Map -->
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCWFuAOOQEy0qB85Y-Nbn552DJdL953nvE&callback=initMap&libraries=&v=weekly"></script>
 <script src="plugins/google-map/gmap.js"></script>
+
+<!-- <script>
+
+  // Initialize and add the map
+  function initMap() {
+
+      // The location of Geeksforgeeks office
+      const gfg_office = {
+          lat: 3.1500677,
+          lng: 101.7064298
+      };
+
+      // Create the map, centered at gfg_office
+      const map = new google.maps.Map(
+              document.getElementById("map"), {
+
+          // Set the zoom of the map
+          zoom: 17.56,
+          center: gfg_office,
+      });
+  }
+</script> -->
 
 <!-- Custom js -->
 <script src="js/script.js"></script>
