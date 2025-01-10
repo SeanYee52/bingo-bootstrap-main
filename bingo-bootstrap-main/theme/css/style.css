@@ -16,7 +16,7 @@ body {
 
 p {
   font-family: "Source Sans Pro", sans-serif;
-  color: #848484;
+  color: #000;
   font-size: 16px;
   line-height: 1.65;
   text-align: justify;
@@ -279,6 +279,7 @@ a:focus, a:hover {
   color: #cfcfcf;
   font-weight: 200;
   font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.5rem
 }
 .header-bradcrumb a:hover {
   color: #28ABE3;
@@ -432,7 +433,7 @@ a:focus, a:hover {
 }
 .navigation .navbar-light .navbar-nav .nav-item .nav-link:hover, .navigation .navbar-light .navbar-nav .nav-item .nav-link:active, .navigation .navbar-light .navbar-nav .nav-item .nav-link:focus {
   background: none;
-  color: #28ABE3;
+  color: #8a7e72;
 }
 .navigation .navbar-light .navbar-nav .nav-item.active .nav-link {
   color: #28ABE3;
@@ -1188,19 +1189,19 @@ a:focus, a:hover {
   padding: 100px 0 130px;
 }
 .services .service-block.color-bg {
-  background: #888a8a;
+  background: #382b2c;
   color: #fff;
-  height: 340px;
+  height: 400px;
 }
 .services .service-block.color-bg i, .services .service-block.color-bg h3, .services .service-block.color-bg p {
-  color: #fff;
+  color: #fff4e6;
 }
 .services .service-block .service-icon {
   margin-bottom: 30px;
 }
 .services .service-block i {
   font-size: 75px;
-  color: #28ABE3;
+  color: #382b2c;
 }
 .services .service-block h3 {
   color: #333;
@@ -1209,8 +1210,12 @@ a:focus, a:hover {
   font-weight: bold;
 }
 .services .service-block p {
-  font-size: 14px;
-  color: #666;
+  font-size: 16px;
+  color: #382b2c;
+}
+
+.service-block div {
+  height: 4rem;
 }
 
 /*=================================================================
