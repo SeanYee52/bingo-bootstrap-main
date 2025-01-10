@@ -11,6 +11,7 @@ body {
   line-height: 1.4;
   font-family: Book Antiqua,Palatino,Palatino Linotype,Palatino LT STD,Georgia,serif; 
   -webkit-font-smoothing: antialiased;
+  background-color: #fff4e6;
 }
 
 p {
@@ -262,7 +263,7 @@ a:focus, a:hover {
 .border {
   height: 2px;
   margin: 20px auto 20px;
-  position: relative;
+  /* position: relative; */
   width: 80px;
   background: #28ABE3;
 }
@@ -587,6 +588,8 @@ a:focus, a:hover {
   margin-bottom: 20px;
   text-transform: uppercase;
 }
+
+
 .hero-area .block p {
   color: #fff;
   width: 50%;
@@ -645,7 +648,8 @@ a:focus, a:hover {
   content: "";
   height: 100%;
   width: 100%;
-  background: rgba(0, 0, 0, 0.5);
+  /* background: rgba(0, 0, 0, 0.5); */
+  background: rgba(0, 0, 0, 0.65);
   left: 0;
   top: 0;
 }
@@ -665,6 +669,16 @@ a:focus, a:hover {
   margin-bottom: 20px;
   margin-top: 50px;
 }
+
+.slider-item h2 {
+  color: #fff;
+  font-size: 30px;
+  line-height: 70px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  
+  
+}
 @media (max-width: 768px) {
   .slider-item h1 {
     font-size: 48px;
@@ -680,6 +694,12 @@ a:focus, a:hover {
 .slider-item p {
   color: #fff;
   margin-bottom: 20px;
+  justify-self: center;
+}
+
+.second-line { 
+  display: block;
+  justify-self: center;
 }
 
 .hero-slider {
@@ -787,7 +807,7 @@ a:focus, a:hover {
 ==================================================================*/
 .about {
   padding: 100px 0;
-  background: #fff;
+  background: #fff4e6;
 }
 .about .btn-about {
   background: #28ABE3;
@@ -1168,8 +1188,9 @@ a:focus, a:hover {
   padding: 100px 0 130px;
 }
 .services .service-block.color-bg {
-  background: #28ABE3;
+  background: #888a8a;
   color: #fff;
+  height: 340px;
 }
 .services .service-block.color-bg i, .services .service-block.color-bg h3, .services .service-block.color-bg p {
   color: #fff;
