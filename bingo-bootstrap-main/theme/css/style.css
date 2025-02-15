@@ -9,7 +9,7 @@
 @import url("https://fonts.googleapis.com/css?family=Catamaran:400,500,600,700,700|Source+Sans+Pro:400,600");
 body {
   line-height: 1.4;
-  font-family: Book Antiqua,Palatino,Palatino Linotype,Palatino LT STD,Georgia,serif; 
+  font-family: Book Antiqua,Palatino,Palatino Linotype,Palatino LT STD,Georgia,serif;
   -webkit-font-smoothing: antialiased;
   background-color: #fff4e6;
 }
@@ -63,8 +63,8 @@ a:focus, a:hover {
 }
 
 .btn-main {
-  background: #28ABE3;
-  border: 1px solid #28ABE3;
+  background: #8a7e72;
+  border: 1px solid #8a7e72;
   color: #fff;
   display: inline-block;
   font-size: 14px;
@@ -677,8 +677,8 @@ a:focus, a:hover {
   line-height: 70px;
   letter-spacing: 2px;
   font-weight: 500;
-  
-  
+
+
 }
 @media (max-width: 768px) {
   .slider-item h1 {
@@ -695,10 +695,11 @@ a:focus, a:hover {
 .slider-item p {
   color: #fff;
   margin-bottom: 20px;
-  justify-self: center;
+  font-size: 1.2em;
+  text-align: center;
 }
 
-.second-line { 
+.second-line {
   display: block;
   justify-self: center;
 }
@@ -742,7 +743,7 @@ a:focus, a:hover {
   z-index: 9;
   height: 70px;
   width: 70px;
-  background: rgba(40, 171, 227, 0.5);
+  background: #8a7e72;
   color: #fff;
   border: 0;
   line-height: 70px;
@@ -768,14 +769,14 @@ a:focus, a:hover {
   width: 25px;
   top: 50%;
   transform: translateY(-50%);
-  background: #fff;
+  background: #fff4e6;
   transition: 0.2s ease;
 }
 .slick-arrow:focus {
   outline: 0;
 }
 .slick-arrow:hover {
-  background: #28ABE3;
+  background: #fff4e6;
 }
 
 .prevArrow {
@@ -909,7 +910,7 @@ a:focus, a:hover {
   Contact
   ==================================================================*/
 .contact-us {
-  padding: 100px 0 50px 0;
+  padding: 50px 0 50px 0;
 }
 
 .contact-form {
@@ -955,6 +956,7 @@ a:focus, a:hover {
 }
 .contact-details .contact-short-info li {
   margin-bottom: 6px;
+  font-size: 1.5em;
 }
 
 .social-icon {
