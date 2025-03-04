@@ -16,7 +16,7 @@ body {
 
 p {
   font-family: "Source Sans Pro", sans-serif;
-  color: #848484;
+  color: #382b2c;
   font-size: 16px;
   line-height: 1.65;
   text-align: justify;
@@ -1188,9 +1188,9 @@ a:focus, a:hover {
   padding: 100px 0 130px;
 }
 .services .service-block.color-bg {
-  background: #888a8a;
+  background: #382b2c;
   color: #fff;
-  height: 340px;
+  height: 380px;
 }
 .services .service-block.color-bg i, .services .service-block.color-bg h3, .services .service-block.color-bg p {
   color: #fff;
@@ -1200,17 +1200,17 @@ a:focus, a:hover {
 }
 .services .service-block i {
   font-size: 75px;
-  color: #28ABE3;
+  color: #382b2c;
 }
 .services .service-block h3 {
   color: #333;
-  font-size: 18px;
+  font-size: 20px;
   text-transform: uppercase;
   font-weight: bold;
 }
 .services .service-block p {
-  font-size: 14px;
-  color: #666;
+  font-size: 16px;
+  color: #000;
 }
 
 /*=================================================================
