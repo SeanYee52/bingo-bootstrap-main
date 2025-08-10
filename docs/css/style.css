@@ -14,9 +14,9 @@ body {
   background-color: #fff4e6;
 }
 
-html {
+/* html {
   scroll-snap-type: y mandatory;
-}
+} */
 
 section, .hero-slider, footer {
   scroll-snap-align: start;
